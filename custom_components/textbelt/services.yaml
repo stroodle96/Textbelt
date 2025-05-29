@@ -1,0 +1,20 @@
+# Placeholder for service descriptions for the Textbelt integration.
+
+send_sms:
+  name: Send SMS
+  description: Send an SMS message using the Textbelt API.
+  fields:
+    number:
+      name: Phone Number
+      description: The phone number to send the SMS to (in international format).
+      required: true
+      example: "+1234567890"
+      selector:
+        text:
+    message:
+      name: Message
+      description: The message to send.
+      required: true
+      example: "Hello from Home Assistant!"
+      selector:
+        text:
